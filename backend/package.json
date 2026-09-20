@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "bun run --watch src/index.ts",
     "start": "bun run src/index.ts",
+    "seed": "bun run seed.ts",
     "typecheck": "tsc --noEmit",
     "db:generate": "drizzle-kit generate",
     "db:push": "drizzle-kit push",
@@ -19,6 +20,7 @@
   },
   "devDependencies": {
     "@types/bun": "latest",
+    "@types/node": "^26.6.2",
     "drizzle-kit": "^0.31.1"
   }
 }

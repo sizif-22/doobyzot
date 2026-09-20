@@ -20,6 +20,6 @@
       "@presentation/*": ["./src/presentation/*"]
     }
   },
-  "include": ["src/**/*", "drizzle.config.ts"],
+  "include": ["src/**/*", "*.ts"],
   "exclude": ["node_modules"]
 }
